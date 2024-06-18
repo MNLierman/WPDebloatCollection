@@ -5,7 +5,7 @@ add_action('admin_head', 'remove_spam_admin_notices');
 
 function remove_spam_admin_notices() {
     // Define the list of spam terms
-    $spamTerms = ['register', 'activate', 'subscribe', 'opt-in', 'nag', 'offer', 'promotion', 'upgrade', 'pro', 'advertisement', 'promo', 'license', 'activation'];
+    $spamTerms = ['register', 'activate', 'activation' 'subscribe', 'subscription', 'opt-in', 'opt-out', 'nag', 'offer', 'promotion', 'promo', 'upgrade', 'pro', 'premium', 'advertisement', 'license'];
 
     ?>
     <script type="text/javascript">
