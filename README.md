@@ -3,9 +3,9 @@ A collection of scripts / snippets that debloat, declutter, and cleanup Wordpres
 
 
 
-## Scripts / PHP Snippets
+### Scripts / PHP Snippets
 
-### remove_spam_admin_notices
+#### remove_spam_admin_notices
 Filters spam admin notices and removes or hides them. Examples include activation, subscription, and "buy premium" nags.
 
 
